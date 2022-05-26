@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" type="text/css" href="./TemperatureConvertor.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Convertor</h1>
+        <div class="sub-container">
+            <div class="degree">
+                <div class="degval" >
+                    <h4>Degrees</h4>
+                    <input type = 'text' id="degreeval" name="input" placeholder="0" required/>
+                </div>
+                <div class="degtyp" >
+                    <h4>Type</h4>
+                    <select id="degtype">
+                        <option value="Farenheit" selected>Fahrenhite</option>
+                        <option value="Celcius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                    </select>
+                </div>
+            </div>
+            <div class="result" >
+                <div class="resval" >
+                    <h4>Result</h4>
+                    <input type='text' name="result" placeholder="0"  id='resultval' disabled/>
+                </div>
+                <div class="restyp" >
+                    <h4>Type</h4>
+                    <select id="restype">
+                        <option value="Farenheit" selected>Fahrenhite</option>
+                        <option value="Celcius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                    </select>
+                </div>
+            </div>
+            <div class="convert">
+                <button onClick="converter()">Convert</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./Temperature.js"></script>
+
+</html>

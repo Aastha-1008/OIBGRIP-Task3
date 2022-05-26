@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('./back.webp');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container{
+    border: 1px solid black;
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    background-color: rgb(41, 90, 119);
+    box-shadow: 2px 2px  rgb(41, 90, 119);
+
+}
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Tiro Tamil', serif;
+}
+.container h4{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2%;
+    width: 100%;
+}
+.degree,.result{
+    display: flex;
+    flex-direction: row;
+}
+.degval,.degtyp,.resval, .restyp{
+    width:50%;
+}
+.convert {
+    text-align: center;
+    margin: 3%;
+}
+.convert button{
+    width: 75%;
+    padding: 1%;
+    font-size: 30px;
+}
+input , select{
+    font-size: 30px;
+    padding: 1%;
+    border: 0.5px solid black;
+}
